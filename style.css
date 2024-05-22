@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: rgba(123, 3, 39, 0.864);
+    padding: 20px;
+}
+
+.dropdown button{
+    background-color: rgb(243, 155, 210);
+    color: black;
+    padding: 15px 15px;
+    border: None;
+    cursor: pointer;
+    width: 100px;
+
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+.dropdown .collections{
+    display: none;
+    position: absolute
+    background-color: red ;
+    box-shadow: 2px 2px 5px;
+}
+.dropdown:hover .collections{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: rgba(172, 78, 200, 0.791);
+}
+
+.dropdown a:hover{
+    background-color: rgb(243, 155, 210);
+}
+.collections{
+    background-color: rgba(144, 226, 236, 0.954);
+    height: 145px;
+    width: 100px;
+}
+.logo{
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(214, 97, 117);
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(119, 212, 211);
+}
+.navbar li{
+    float: left;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover{
+    border: 1px solid black
+}
+
+
+.bottom{
+    border: 1px solid black;
+    background-color: black;
+    text-align: left;
+    font-size: small;
+    color: white;
+    padding: 25px;
+
+}
+.icons{
+    text-align: right;
+}
+.icons a{
+    text-decoration: none;
+    margin: 10px;
+}
+.login_body{
+    text-align: center;
+    position: fixed;
+}
+.login_body label{
+    margin: 10px;
+}
+.login_body input{
+    margin: 10px;
+}
+.login_box{
+    position: static;
+    display: block;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-style: solid;
+}
+.reg_body label{
+    margin: 10px;
+}
+.reg_body input{
+    margin: 10px;
+}
+.reg_body{
+    text-align: center;
+    position: fixed;
+}
+.reg_box{
+    position: static;
+    display: block;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-style: solid;
+}
